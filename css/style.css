@@ -15,7 +15,7 @@ header {
 
 #nav {
     display: flex;
-    padding: 20px 15px;
+    padding: 20px 15px 20px 150px;
 }
 
 #nav a {
@@ -47,7 +47,9 @@ section img {
     padding: 10px;
 }
 
-#secao2 h2 {
+#secao2 h2,
+#secao5 h2,
+#secao6 h2 {
     padding-bottom: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', 
     Calibri, 'Trebuchet MS', sans-serif;
@@ -56,7 +58,9 @@ section img {
     font-style: oblique;
 }
 
-#secao2 p {
+#secao2 p,
+#secao5 p,
+#secao6 p {
     font-size: 20px;
     color: #333;
 }
@@ -89,22 +93,6 @@ section img {
     padding: 20px;
 }
 
-#secao5 h2 {
-    padding-bottom: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', 
-    Calibri, 'Trebuchet MS', sans-serif;
-    color: #333;
-    margin-right: 30px;
-    font-size: 35px;
-    font-style: oblique;
-    text-align: right;
-}
-
-#secao5 p {
-    font-size: 20px;
-    color: #333;
-}
-
 #secao6 {
     margin: 100px 700px 0 90px;
     height: 450px;
@@ -112,20 +100,6 @@ section img {
     background-color: #f8f5f5;
     border-radius: 30px;
     padding: 20px;
-}
-
-#secao6 h2 {
-    padding-bottom: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', 
-    Calibri, 'Trebuchet MS', sans-serif;
-    color: #333;
-    font-size: 35px;
-    font-style: oblique;
-}
-
-#secao6 p {
-    font-size: 20px;
-    color: #333;
 }
 
 #secao7 {
@@ -211,4 +185,33 @@ footer h5 {
 footer span {
     color: #b1a0a0;
     font-size: 15px;
+}
+
+@media (max-width: 1440px) {
+    footer {
+        width: 1600px;
+    }
+
+    #secao1 {
+        width: 1600px;
+    }
+
+    #secao-marca {
+        width: 1600px;
+    }
+}
+
+/* tablet 720px */
+ @media (max-width: 720px) {
+    footer {
+        width: 1350px;
+    }
+
+    #secao1 {
+        width: 1345px;
+    }
+
+    #secao-marca {
+        width: 1345px;
+    }
 }

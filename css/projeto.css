@@ -68,6 +68,13 @@ section img {
     text-decoration: none;
 }
 
+#secao2 a:hover {
+    background-color: #f0ebeb;
+    border-color: #fff;
+    color: #161742;
+    border-radius: 30px;
+}
+
 #secao2 .para {
     font-size: 25px;
 }
@@ -110,4 +117,33 @@ footer h5 {
 footer span {
     color: #b1a0a0;
     font-size: 15px;
+}
+
+@media (max-width: 1440px) {
+    footer {
+        width: 1600px;
+    }
+
+    #secao1 {
+        width: 1600px;
+    }
+
+    #secao-marca {
+        width: 1600px;
+    }
+}
+
+/* tablet 720px */
+ @media (max-width: 720px) {
+    footer {
+        width: 1350px;
+    }
+
+    #secao1 {
+        width: 1345px;
+    }
+
+    #secao-marca {
+        width: 1345px;
+    }
 }

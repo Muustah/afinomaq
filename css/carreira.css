@@ -108,7 +108,7 @@ input[type="email"] {
 }
 
 .btn {
-    background-color: #fafafa;
+    background-color: #ccc;
     color: #000;
     border: 2px solid transparent;
     border-radius: 30px;
@@ -123,7 +123,7 @@ input[type="email"] {
 }
 
 .btn:hover {
-    background-color: #f0ebeb;
+    background-color: #fafafa;
     border-color: #ccc;
     color: #161742;
 }
@@ -166,4 +166,41 @@ footer h5 {
 footer span {
     color: #b1a0a0;
     font-size: 15px;
+}
+
+@media (max-width: 1440px) {
+    footer {
+        width: 1600px;
+    }
+
+    #secao1 {
+        width: 1600px;
+    }
+
+    #secao-marca {
+        width: 1600px;
+    }
+
+    #form-container {
+        margin: 0 0 0 400px;
+    }
+}
+
+/* tablet 720px */
+ @media (max-width: 720px) {
+    footer {
+        width: 1350px;
+    }
+
+    #secao1 {
+        width: 1360px;
+    }
+
+    #secao-marca {
+        width: 1345px;
+    }
+
+    #form-container {
+        margin: 0 0 0 400px;
+    }
 }
