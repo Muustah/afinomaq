@@ -214,4 +214,9 @@ footer span {
     #secao-marca {
         width: 1345px;
     }
+    
+    #nav a {
+        padding: 30px;
+    }
+
 }
